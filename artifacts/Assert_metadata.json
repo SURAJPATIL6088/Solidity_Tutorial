@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "CheckOwnerShip",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assert.sol": "Assert"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assert.sol": {
+			"keccak256": "0xb409888046ccb8c87c6f9635d2b923f7a14cefc37131f12a5d2e943ab6ebb8aa",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://fc7c3639d68e35ebc016bcd1010a8cfcfc5aea8bf3fb79c2c40f3cc967b91766",
+				"dweb:/ipfs/QmTNy7no5WLHUpLxowyGbNsM8RkmBXTXeJRuyuhN8m8XW9"
+			]
+		}
+	},
+	"version": 1
+}

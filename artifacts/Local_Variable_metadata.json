@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Set_Local",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pid",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Local_Variables.sol": "Local_Variable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Local_Variables.sol": {
+			"keccak256": "0x6fa508b727395ada8fa0dde76501678f01fbdea8eb0d51540e2cd4a0062d0761",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://e45d8670a832e30f00efa493563d837fc0ecefc932269118614f365c9516e02a",
+				"dweb:/ipfs/QmeF5aJp4DSKuXrJw1MFnbQnGZWoNhAEarZo9DWS4oLF8f"
+			]
+		}
+	},
+	"version": 1
+}

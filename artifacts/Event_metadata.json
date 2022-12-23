@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "AnotherEvent",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "Orgnizer",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "Company_Position",
+						"type": "string"
+					}
+				],
+				"name": "Register",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "TestEvent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"events.sol": "Event"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"events.sol": {
+			"keccak256": "0xe9e3aebdd51baa3ddacc03c0fc5b522605e2923950c96b1651e6dd1296af43f4",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://f41ac9269806931675406e73f3d08a35cd18db25e76eb5d6b1029e138e191c00",
+				"dweb:/ipfs/QmZuL1j96M5UJ92NEnYYm8sAYWsLuoamCF2L1LQ98ZwXG1"
+			]
+		}
+	},
+	"version": 1
+}

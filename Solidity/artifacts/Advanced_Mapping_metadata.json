@@ -1,0 +1,115 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "Acc_Info",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "Address",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Amount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Delete",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_add",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amt",
+						"type": "uint256"
+					}
+				],
+				"name": "Insert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/Advanced_Mappings_02.sol": "Advanced_Mapping"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/Advanced_Mappings_02.sol": {
+			"keccak256": "0xf5c8b6c34a4499495f867c768f9461db95157b92ec84e889eb6f27abcc4429d3",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://4a1774055f2ded91e8d644cef8c1e275190bfe69bfb8aee1bf852115b09aaf88",
+				"dweb:/ipfs/QmfBJBWw8gSubLnyGzuqoJmiqp1EZMLp9pu1j2CNVQWRzs"
+			]
+		}
+	},
+	"version": 1
+}

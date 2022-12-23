@@ -1,0 +1,115 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "Getter",
+						"type": "address"
+					}
+				],
+				"name": "CALL",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "Getter",
+						"type": "address"
+					}
+				],
+				"name": "SEND",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "Getter",
+						"type": "address"
+					}
+				],
+				"name": "TRANSFER",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"OOPs_Solidity/Send_Transfer_Call.sol": "SEND_TRANSFER_CALL"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"OOPs_Solidity/Send_Transfer_Call.sol": {
+			"keccak256": "0xf11e2ba45f1866fcf49afed827504f9b2e4fe7e327c721ffede72544f2785ce2",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://76af4724434c6036e964a4d2559c1a5d118d329497ca4408299f8450b8bcc7c8",
+				"dweb:/ipfs/QmXHccj19zY9eU7PEce1oCXXXUhJD8TFUGAB4Rc8nXBSWA"
+			]
+		}
+	},
+	"version": 1
+}

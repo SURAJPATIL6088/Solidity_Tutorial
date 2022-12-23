@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "rollNo",
+						"type": "uint256"
+					}
+				],
+				"name": "Delete",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "rollNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					}
+				],
+				"name": "Input",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Student",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "rollNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					}
+				],
+				"name": "Update",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Mappings.sol": "Mapping"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Mappings.sol": {
+			"keccak256": "0xc6a7a2d363e375a3ed97d54917e34947df324c405f2d7f7b52c8866294db030c",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://b819f3de6d3bbd687800a39a6781e20f30fdad0f64c6ad029537e4b3ddfb17d1",
+				"dweb:/ipfs/QmdLMaN8nrjaK3jbo1TVBK1JpViXzqtwJiuDzYFkW251Tt"
+			]
+		}
+	},
+	"version": 1
+}

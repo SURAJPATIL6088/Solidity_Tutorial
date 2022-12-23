@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "Index",
+						"type": "uint256"
+					}
+				],
+				"name": "Change_Status",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Order_Product",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "MSG",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Product",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Product_Status",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Enums.sol": "Enum"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Enums.sol": {
+			"keccak256": "0x6f415400f2d5f52e7c3d3dcf4b626e73e70ce8ff1057100bc41b04b1a77e31e8",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://17ee211b8626bcf850ab37aa7a624670c2cbe9f02836f0556f0fa3ea8c2c7404",
+				"dweb:/ipfs/QmTJ1Reavy9BafJdVJwkhYyQaaVW116wP2d2WrceZkbe9F"
+			]
+		}
+	},
+	"version": 1
+}

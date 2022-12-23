@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "stu_name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "S1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "RollNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "stu_roll1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "stu_name1",
+						"type": "string"
+					}
+				],
+				"name": "Update",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Structures.sol": "Structure"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Structures.sol": {
+			"keccak256": "0xb40d7f9d385deb46600654cac611ff8d6f36a9604f393673b46112e3dcbc4d3b",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://c476a898ea657132fd25fc120b2f8457212221a3b4f920eb38f07c0a8cb325d5",
+				"dweb:/ipfs/QmXAk4WtgeYQ65vP1qGP3Uc6EQuBwGUvyQLNxkppqNSzMf"
+			]
+		}
+	},
+	"version": 1
+}

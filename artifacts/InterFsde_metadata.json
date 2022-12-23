@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "InterFace",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Interface.sol": "InterFsde"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Interface.sol": {
+			"keccak256": "0x1461bb49ecfb7f6975c8b616b74d0973cf7d3bc5445323d93164db2d6af51ec3",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://fef5501daacb3b30e9fc4d649f5cb7c767bc4e0f128f3038ac5a1d62c4c79548",
+				"dweb:/ipfs/Qmc4mD2yKftuMTnHKNSXvCxtpEgYxpmfiVC9ekYn9LzNh6"
+			]
+		}
+	},
+	"version": 1
+}

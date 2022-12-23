@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "N",
+						"type": "uint256"
+					}
+				],
+				"name": "Bool",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Value",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Booleans.sol": "Boolean"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Booleans.sol": {
+			"keccak256": "0xe56ab69815bece2397fc89b617052844e3ba9af7fba49496afe44bad12381623",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://851e416cea9578c654a9554b71cf69775c5cf16036bf61b2f2b59911b6c44636",
+				"dweb:/ipfs/QmWFMBaZ89Fw49Tiph59UmrwvvQpAVufs5NscJmsknGob2"
+			]
+		}
+	},
+	"version": 1
+}

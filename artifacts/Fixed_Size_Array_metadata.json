@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "Index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Value",
+						"type": "uint256"
+					}
+				],
+				"name": "Setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "len",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "myArr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fixed_Size_Array.sol": "Fixed_Size_Array"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fixed_Size_Array.sol": {
+			"keccak256": "0x835753ae19a894cd3f157334b6dc1f940399e9bbfbd77bdcdbc71cf842f86772",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://087ed74289d03361d6b7f0147369017547fdd32dd089a2aa2f9f3c26f3da41e9",
+				"dweb:/ipfs/QmQDECXcFw2pcAxZWSpaJpxY447ZQuoqa1WLxEaMwV9Gfi"
+			]
+		}
+	},
+	"version": 1
+}
