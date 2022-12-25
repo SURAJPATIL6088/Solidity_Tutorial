@@ -5,7 +5,9 @@ This workspace contains 3 directories:
 3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
 
 
-#Content of the Tutorial
+# Content of the Tutorial
 
-
-##Solidity Projects
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
