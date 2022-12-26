@@ -1,0 +1,196 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Quantity",
+						"type": "uint256"
+					}
+				],
+				"name": "BuyTicket",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Tickets",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "eventID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Quantity",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "To",
+						"type": "address"
+					}
+				],
+				"name": "TransferTicket",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TicketCount",
+						"type": "uint256"
+					}
+				],
+				"name": "addEvent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "events",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "Organiser",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TicketCount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TicketRemain",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nextID",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Projects/Decentralized_Event_Ornanizarion_System.sol": "Event_Oranization"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Projects/Decentralized_Event_Ornanizarion_System.sol": {
+			"keccak256": "0x3d56901cc77e3de6e3a568f81a56d1c5590b132ebc7e4cc66509b528296055b7",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://0d834a6168e3785e2467a5fd711b444cbde1b59418cd5ccd6c354ebc29720d20",
+				"dweb:/ipfs/QmfS2fedFqbUUMcKPvnBUYsjhpujQvbsqJ5hBEtzeTSxjr"
+			]
+		}
+	},
+	"version": 1
+}
